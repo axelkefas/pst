@@ -1,0 +1,1 @@
+INSERT INTO cars (id,name,color,length,weight,velocity) VALUES (1,'innova', 'black', 1000, 1000, 2000);
