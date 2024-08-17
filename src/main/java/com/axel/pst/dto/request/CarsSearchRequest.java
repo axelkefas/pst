@@ -18,21 +18,21 @@ public class CarsSearchRequest {
     private String color;
 
     @JsonProperty("min_length")
-    private int minLength;
+    private Integer minLength;
 
     @JsonProperty("max_length")
-    private int max_length;
+    private Integer maxLength;
 
     @JsonProperty("min_weight")
-    private int minWeight;
+    private Integer minWeight;
 
     @JsonProperty("max_weight")
-    private int maxWeight;
+    private Integer maxWeight;
 
     @JsonProperty("min_velocity")
-    private int minVelocity;
+    private Integer minVelocity;
 
     @JsonProperty("max_velocity")
-    private int maxVelocity;
+    private Integer maxVelocity;
 
 }
