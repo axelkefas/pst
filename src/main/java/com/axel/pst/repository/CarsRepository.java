@@ -2,6 +2,7 @@ package com.axel.pst.repository;
 
 import com.axel.pst.model.entity.Cars;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -9,6 +10,6 @@ import org.springframework.stereotype.Repository;
  * Date: 14/08/24
  */
 @Repository
-public interface CarsRepository extends JpaRepository<Cars, Long> {
+public interface CarsRepository extends JpaRepository<Cars, Long>, JpaSpecificationExecutor<Cars> {
 
 }
